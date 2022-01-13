@@ -1,0 +1,45 @@
+.slider {
+    margin: 0 auto;
+    width: 640px;
+    /* height: 320px; */
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .slider * {
+    width: 100%;
+    /* transition: all 1s linear; */
+
+    animation: slide-left 15s ease infinite;
+  }
+  
+  /* .img:hover {
+    transform: translateX(-100%);
+  } */
+  @keyframes slide-left {
+    0% {
+      transform:  translateX(0%);
+    
+    }
+    10% {
+      transform: translateX(-100%);
+    }
+    20% {
+      transform: translateX(-200%);
+    }
+    30% {
+      transform:  translateX(-300%);
+    }
+    40% {
+        transform:  translateX(-400%);
+      }
+    50% {
+        transform: translateX(-500%);
+      }
+    60% {
+        transform: translateX(-600%);
+      }
+    70% {
+        transform:  translateX(-700%);
+      }
+  }
