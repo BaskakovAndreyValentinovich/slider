@@ -6,9 +6,7 @@ let imgUrls=["https://i.pinimg.com/originals/26/17/1c/26171c962544194a5c6cb57802
 // let imgUrls=["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
 let slider=document.querySelector('.slider');
 window.addEventListener("load", function (){
-    prntImg ();
-    // document.querySelector ("#forw").addEventListener("click", pressForw);
-   // console.log(progress); 
+    prntImg (); 
 });
 function prntImg () {
     for(let a=0;a<imgUrls.length;a++) {
@@ -17,10 +15,6 @@ function prntImg () {
         imgs.src=imgUrls[a]
         slider.appendChild(imgs);
     }
-    console.log(imgUrls.length);
 };
-
-function pressForw () {
- imgs.document.classList.add('nav');    
-}
+   
   
